@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>Welcome to KFC.com</title>
+<meta name="MSSmartTagsPreventParsing" content="true">
+<script language="JavaScript1.2" src="/check_os.js"></script>
+<script language="JavaScript1.2" src="/nav_links.js"></script>
+<script language="JavaScript1.2" src="/nav_popup.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#cc0000" topmargin="0" leftmargin="0" rightmargin="0" marginheight="0" marginwidth="0" >
+<div id="IntroText1" style="position:absolute; left:300px; top:75px; width:452px; height:160px; z-index:1; visibility: visible; text-align : justify;" class="bodylg">In 1939, Colonel Harland Sanders first gave the world a taste of his most famous creation, Original Recipe Kentucky Fried Chicken, featuring that secret blend of 11 herbs and spices. Since that time, millions of people the world over have come to love his one of a kind chicken, homestyle side dishes and  hot and  fresh  biscuits.</div>
+<div id="IntroText2" style="position:absolute; left:335px; top:175px; width:417px; height:100px; z-index:1; visibility: visible; text-align : justify;" class="bodylg">We still take pride in doing things The Colonel's way, utilizing only the highest quality ingredients, innovative recipes, and time-tested cooking methods.</div>
+<div id="IntroText3" style="position:absolute; left:360px; top:242px; width:392px; height:100px; z-index:1; visibility: visible; text-align : justify;" class="bodylg">So come and dine with us, or take some home - any way you like it. Only KFC has so much tasty chicken, fresh from our kitchens, just for you.</div>
+<div id="Fact" style="position:absolute; left:0px; top:350px; width:775px; height:247px; z-index:2; visibility: visible; text-align : justify;" class="bodywhitesm"><img src="images/hm_facts2.gif" alt="" width="775" height="247" border="0" usemap="#Map"> 
+  <map name="Map">
+    <area shape="poly" coords="412,48,505,44,561,45,617,9,723,24,733,70,701,218,618,224,535,230,437,230,369,194,326,161,277,118,288,81,336,55" href="https://giftcertificates.kfc.com/" alt="KFC Gift Checks" target="_blank" onFocus="this.blur()">
+  </map>
+</div>
+<div id="Whatsnew" style="position:absolute; left:25px; top:417px; width:220px; height:180px; z-index:3; visibility: visible" class="bodywhitesm"><b>KFC teams with NASCAR's hottest driver Dale Earnhardt Jr!</b><br><a href="http://www.yum.com/news/011304.htm" class="whitelinesm">Learn more</a> about our partnership with the Chance 2 Racing Team and look for the KFC car circling the tracks of NASCAR's Busch Series throughout the summer.<p><b>Get the Facts</b><br>Learn more about KFC’s policies regarding <a href="/about/facts.htm" class="whitelinesm">animal welfare</a> and the <a href="/about/avianflu.htm" class="whitelinesm">Avian Flu virus</a>.</div>
+<div id="StoreLocator" style="position:absolute; left:570px; top:52px; width:200px; height:115px; z-index:1; background-color: #003366; layer-background-color: #003366; border: 1px none #000000; visibility: hidden;" class="versmwhite">
+<table border="0" cellpadding="4" cellspacing="0" width="200">
+<form name="smallform" method="get" action="http://clients.mapquest.com/kfc/mqlocator">
+    <INPUT TYPE=HIDDEN NAME="screen" VALUE="find">
+    <INPUT TYPE=HIDDEN NAME="link" VALUE="results">
+    <INPUT TYPE=HIDDEN NAME="linktype" VALUE="results">
+    <INPUT TYPE=HIDDEN NAME="smap" VALUE="map">
+    <INPUT TYPE=HIDDEN NAME="width" VALUE="380">
+    <INPUT TYPE=HIDDEN NAME="height" VALUE="250">
+    <INPUT TYPE=HIDDEN NAME="iconid" VALUE="31">
+    <INPUT TYPE=HIDDEN NAME="country" VALUE="">
+    <INPUT TYPE=HIDDEN NAME="searchtype" VALUE="origin">
+    <INPUT TYPE=HIDDEN NAME="sqlcol1" VALUE="name">
+    <INPUT TYPE=HIDDEN NAME="sqlcnd1" VALUE="=">
+    <INPUT TYPE=HIDDEN NAME="sqlval1" VALUE="Kentucky Fried Chicken">
+    <INPUT TYPE=HIDDEN NAME="sqlcmb1" VALUE="or">
+    <INPUT TYPE=HIDDEN NAME="sqlcol2" VALUE="multibrand">
+    <INPUT TYPE=HIDDEN NAME="sqlcnd2" VALUE="contains">
+    <INPUT TYPE=HIDDEN NAME="sqlval2" VALUE="K">
+    <INPUT TYPE=HIDDEN NAME="queryIconCol" VALUE="icon_id">
+    <INPUT TYPE=HIDDEN NAME="queryUseOrigin" VALUE="1">
+    <INPUT TYPE=HIDDEN NAME="queryCenterOrigin" VALUE="1">
+    <INPUT TYPE=HIDDEN NAME="queryMax" VALUE="3">
+    <INPUT TYPE=HIDDEN NAME="queryRadius" VALUE="999">
+  <tr>
+   <td class="versmwhite">
+  <b>Do you need help finding the nearest KFC restaurant near you?  Type in your 5-digit zip code and click "FIND".</b>
+<table border="0" cellpadding="0" cellspacing="0" width="200">
+  <tr>
+  <td  width="105"class="versmwhite" valign="middle"><input type="text" name="zip" size="7" maxlength="20" style="height: 23px; width: 100px"></td>
+  <td width="95" class="versmwhite" valign="top"><input type="image" src="/images/find.gif" width="67" height="34" border=0 value="Submit" onFocus="this.blur()" style="cursor: hand"></td>
+  </tr>
+ </table>
+<b>For a more precise search, click <a href="http://clients.mapquest.com/kfc/mqlocator?link=find" class="whitelinesm">Advanced Store Locator</a></b>.</td>
+  </tr></form>
+  </table>
+</div>
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td valign="top">
+<!----Header Starts Here---->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+   <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+	  <tr>
+	   <td width="350"><img name="kfc_hm_r1_c1" src="images/kfc_hm_r1_c1.gif" width="350" height="10" border="0"></td>
+	   <td width="100%" background="images/kfc_hm_r1_c3.gif"><img src="images/spacer.gif" width="405" height="10" alt="" border="0"></td>
+	  </tr>
+	</table></td>
+  </tr>
+  <tr>
+   <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+	  <tr>
+	   <td width="228" valign="top" background="images/kfc_hm_r2_c1.gif" class="bodywhitesm"><img src="images/spacer.gif" width="228" height="4" alt="" border="0"><br>&nbsp;&nbsp;&nbsp;&nbsp;Welcome to KFC.com</td>
+	   <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		  <tr>
+		   <td width="100%" bgcolor="#000066" align="right" height="19" class="bodywhitesm">There's Fast Food...Then There's KFC!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		  </tr>
+		  <tr>
+		   <td width="100%" background="images/rednav_bg2.gif"><img name="kfc_r3_c2" src="images/kfc_hm_r3_c2.gif" width="549" height="30" border="0" usemap="#m_kfc_r3_c2" alt=""></td>
+		  </tr>
+		</table></td>
+	  </tr>
+	</table></td>
+  </tr>
+  <!----Header Ends Here---->
+  
+  <!----Midsection Starts Here---->
+  <tr>
+   <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+	  <tr>
+	   <td width="350"><img src="images/kfc_hm_r4_c1.jpg" name="kfc_hm_r4_c1" width="350" height="251" border="0" onload="MM_preloadImages('images/kfc_hm_r4_c1.jpg')"></td>
+	   <td width="100%" valign="top" bgcolor="#f7f2d6"><img src="images/spacer.gif" width="405" height="1" alt="" border="0"></td>
+	  </tr>
+	</table></td>
+  </tr>
+
+<tr><td background="images/hm_bg.gif" class="bodywhitesm"><img src="images/kfc_hm_r5_c1.gif" width="321" height="35" alt="" border="0"><br><br>
+
+<table border="0" cellpadding="0" cellspacing="0" width="755">
+  <tr>
+   <td width="755" background="" colspan="2"><img src="images/spacer.gif" width="1" height="167" alt="" border="0"></td>
+   </tr>
+   <tr>
+   <td width="395" background=""><img src="images/spacer.gif" width="395" height="70" alt="" border="0"></td>
+   <td width="375" background="" valign="top">
+
+</td>
+</tr>
+  </table>
+    
+  </td>
+    </tr>
+  <tr>
+
+</td>
+</tr>
+</table>
+<!----Midsection Ends Here---->
+
+</td>
+</tr>
+<tr>
+<td valign="bottom" height="29" bgcolor="#cc0000">
+
+<!----Footer Starts Here---->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+  <td width="50%" height="19" bgcolor="#000066" align="left" class="bodywhitesm">&nbsp;&nbsp;&nbsp;&nbsp;&copy; 2004 KFCC</td>
+  <td width="50%" height="19" bgcolor="#000066" align="right" class="bodywhitesm"><a href="privacy.htm" class="whitesm">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="legal.htm" class="whitesm">Legal</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="contact.htm" class="whitesm">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+  <td width="100%" colspan="2" background="images/stripe_bg.gif"><img src="images/spacer.gif" width="1" height="10"></td>
+  </tr>
+</table>
+<!----Footer Ends Here---->
+
+</td>
+</tr>
+<map name="m_kfc_r3_c2">
+<area shape="rect" coords="463,0,549,23" href="http://clients.mapquest.com/kfc/mqlocator?link=find" alt="Store Locator" title="Store Locator" onMouseOver="P7_autoHide('StoreLocator');MM_showHideLayers('StoreLocator','','show')" onFocus="this.blur()">
+<area shape="rect" coords="406,0,463,23" href="/careers/" title="Careers" alt="Careers" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_1011121548_0,410,23,null,'kfc_r3_c2');MM_showHideLayers('StoreLocator','','hide')" onFocus="this.blur()">
+<area shape="rect" coords="358,0,406,23" href="javascript:;" title="Kids" alt="Kids" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_1011121515_1,364,23,null,'kfc_r3_c2');" onFocus="this.blur()">
+<area shape="rect" coords="277,0,358,23" href="javascript:;" title="Community" alt="Community" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_1011121438_2,280,23,null,'kfc_r3_c2');" onFocus="this.blur()">
+<area shape="rect" coords="205,0,277,23" href="/kitchen/nutrition.htm" alt="Nutrition" onFocus="this.blur()">
+<area shape="rect" coords="87,0,205,23" href="javascript:;" title="Colonel's Kitchen" alt="Colonel's Kitchen" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_1011121348_3,92,23,null,'kfc_r3_c2');" onFocus="this.blur()">
+<area shape="rect" coords="0,0,87,23" href="/about/" title="About KFC" alt="About KFC" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_1011121034_4,6,23,null,'kfc_r3_c2');" onFocus="this.blur()">
+</map>
+</table>
+
+</body>
+
+</html>
+
