@@ -1,0 +1,218 @@
+﻿<html>
+<head>
+<title>Vainqueur CCG Ruleset</title>    
+<meta property="og:title" content="Vainqueur CCG Ruleset" />
+<meta property="og:url" content="https://y0shin.github.io/vainqueur.html" />
+<meta property="og:image" content="card_labled.png" />
+</head>
+
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="./navbar.css">
+
+<body>
+
+<!-- partial:index.partial.html -->
+<div class="sidebar-container">
+  <div class="sidebar-logo">
+    Vainqueur
+  </div>
+  <ul class="sidebar-navigation">
+        <li>
+      <a href="../vainqueur.html">
+        <i class="fa fa-home" aria-hidden="true"></i> Homepage
+      </a>
+    </li>
+    <li>
+      <a href="../rules.html">
+        <i class="fa fa-book" aria-hidden="true"></i> Rules
+      </a>
+    </li>
+    <li>
+      <a href="https://boards.4channel.org/vp/thread/48145160">
+        <i class="fa fa-tachometer" aria-hidden="true"></i> Life Tracker
+      </a>
+    </li>
+    <li class="header">Decklists</li>
+    <li>
+      <a href="#">
+        <i class="fa fa-paw" aria-hidden="true"></i> Beasts
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="fa fa-hat-wizard" aria-hidden="true"></i> Touhou
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="fa fa-ghost" aria-hidden="true"></i> SMT - Persona
+      </a>
+    </li>
+  </ul>
+</div>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    
+<div class="content-container">
+
+  <div class="container-fluid">
+
+<h1 id="vainqueur-custom-card-game-ruleset"><em>Vainqueur</em> Custom Card Game Ruleset</h1>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="the-deck">The Deck</h3>
+<ul>
+<li>The deck must contain 50 to 80 cards.</li>
+<li>You can only have up to 4 copies of the same card in your deck, cards that share a name are considered the same card.</li>
+</ul>
+<p>In the future, some cards may end up banned for use in competitive play. You cannot have any banned cards in your deck. A list of banned cards will be available online.</p>
+<p>Try to keep your deck closer to 50 cards, the larger a deck is the harder it becomes to draw the cards you need. Cards additionally cannot have their backs marked in any way.</p>
+<h3 id="additional-items">Additional Items</h3>
+<ul>
+<li><strong>Coins</strong><br>
+Some cards may require a coin toss. You may also use one to decide which player goes first.</li>
+<li><strong>Dice</strong><br>
+Much like the coin, there are cards that may require you to roll a die. Any standard 6-sided die will suffice.</li>
+<li><strong>Tokens</strong><br>
+Tokens are items used to represent monsters or masters created via card effects. Any object can be used as long as it has two distinct ways to place it.</li>
+<li><strong>Counters</strong><br>
+Some cards will require a marker(<em>counter</em>) to keep track of things, any object can be used as a counter but it is recommended that you use a die.</li>
+<li><strong>Calculator</strong><br>
+You will need to keep track of your life as you progress through a game, a calculator of some fashion is recommended for this task. You may also want to track your life on paper.</li>
+</ul>
+<h3 id="card-sleeves">Card Sleeves</h3>
+<p>Some players may opt to use plastic sleeves to protect their cards from damage. If you use sleeves please note the following rules:</p>
+<ul>
+<li>All sleeves must be the exact same.</li>
+<li>No obscene/graphic imagery on the sleeves.</li>
+<li>You may use 2 sleeves on your cards(double-sleeving), but the entire deck must be doubled-sleeved. The outer sleeves must all be the same.</li>
+</ul>
+<h2 id="the-game-field">The Game Field</h2>
+<p><img src="https://cdn.discordapp.com/attachments/679385700734599178/883032962105475132/field.png" alt="enter image description here"></p>
+<h3 id="deck">1. Deck</h3>
+<p>Your deck is placed face-down in this spot. You draw cards to add to your hand from the deck. If you ever have to look through your deck shuffle it and return it to this spot.</p>
+<h3 id="cemetery">2. Cemetery</h3>
+<p>When Monster, Master and Battlefield cards are destroyed, or when you use Spells, they are sent to this zone face-up. Cards may be sent to this zone face-down, in that case they are treated as having no name or type. The Cemetery is public knowledge and players are free to look at the face-up contents and count the amount of cards in it.</p>
+<h3 id="monster-field">3. Monster Field</h3>
+<p>This is where monsters are placed when you play them. You can have up to 6 cards in this zone. Monster cards have two states: Battle-Ready and Defending.</p>
+<h3 id="master-zone">4. Master Zone</h3>
+<p>This is where you play your Master Card. Each player can only have 1 Master in play. If there is already a Master in play you cannot play another one.</p>
+<h3 id="battlezone">5. Battlezone</h3>
+<p>This is where you play your Battlefield. Each player can only have 1 Battlefield in play. Battlefield cards effect both players. To use another Battlefield, send your previous one to the Cemetery.(This does not count as destroying your battlefield)</p>
+<h3 id="game-mats">Game Mats</h3>
+<p>Players may decide to use fabric or paper mats to further protect their cards, game mats cannot have graphic or obscene imagery on them.</p>
+<h2 id="how-to-read-a-card">How to Read a Card</h2>
+<table>
+<thead>
+  <tr>
+    <td><p><img src="card_labled.png" alt="enter image description here"></p></td>
+    <td><ol>
+<li><strong>Name</strong><br>
+This is the card’s name. If cards have the same name they are considered to be the same card.</li>
+<li><strong>Type</strong><br>
+This identifier will help you to determine what kind of card it is. Monsters and Masters additionally have a Subtype before the Type.</li>
+<li><strong>Effect Box</strong><br>
+Card effects are written here, describing the card’s abilities and how to use them.</li>
+<li><strong>Monster Rank</strong><br>
+This is a value used to determine the amount of tributes requires to Summon a monster.<br>
+a monsters require no tributes, ß monsters require 1 tribute and O monsters require 2 tributes. Masters have HP here.</li>
+<li><strong>STR/DEF</strong><br>
+STR is a monsters strength and DEF is a monster’s defense. These values are used for attacking.</li>
+</ol></td>
+  </tr>
+</thead>
+</table>
+<h1 id="summoning-monster-cards"><strong>Summoning Monster Cards</strong></h1>
+<p><strong>Regular Summon</strong> *</p>
+<p>This is the easiest and most common way to Summon a monster. Simply play a α Monster card from your hand into the Monster Field in Battle-Ready or Defending positions(<em>cont.</em>)</p>
+<p><strong>Summoning β and Ω Monsters</strong> *</p>
+<p>To summon these monsters you must tribute the appropriate amount of monsters you control before you summon the monster. β Monsters require 1 monster tribute to summon whereas Ω Monsters require 2 monster tributes. These are both counted as Regular Summons.</p>
+<p>*: <em>You can only do 2 Regular Summons per turn</em>.</p>
+<p><strong>Alter Summoning Monsters</strong></p>
+<p>Some Monsters can be played onto the field without a Regular Summon. This is called an Alter Summon. Alter Summoning is usually result of a card effect. To Alter Summon simply put the Monster into the Monster Field. There is no limit on the amount of Alter Summons.</p>
+<p><strong>Battle Positions</strong></p>
+<p>There are two positions a Monster can have when summoned: Battle-Ready and Defending. A Battle-Ready Monster can attack and is played facing forwards. Defending cards cannot attack and are played rotated to the right.</p>
+<h1 id="using-card-effects"><strong>Using Card Effects</strong></h1>
+<p><strong>Monster Cards</strong><br>
+Monster Cards may additionally have effects that you can only activate once per turn while on the field. If you have 2 of the same Monster in play both may activate their effect. You can only activate Monster effects during your Main Step.</p>
+<p><strong>Master Cards</strong><br>
+Master Cards have effects that typically alter the game state and are ongoing. The instant a Master leaves the field its effect ends. Master effects may be activated during any step,</p>
+<p><strong>Battlefield Cards</strong><br>
+Battlefield Cards have effects that much like Master Cards are ongoing. Battlefield effects affect both players, not just the card’s controller. The instant a Battlefield leaves the field its effect ends. Battlefield effects may be activated during any step.</p>
+<p><strong>Spell Cards</strong><br>
+Spell Cards have one-time effects. To use a spell simply play it anywhere on the Game Field and apply its effect. Once the effect is applied send the Spell to the Cemetery.</p>
+<p><strong>React Spell Cards</strong><br>
+React Spell Cards are a sub-type of Spell Card that may be played at any point in a game. They are used exactly the same as Spells.</p>
+<h2 id="how-to-play">How to Play</h2>
+<h3 id="preparing-a-game">Preparing a Game</h3>
+<p>Before starting a game make sure to follow these steps (<em>in order</em>):</p>
+<ul>
+<li>Shuffle your deck thoroughly. You may also shuffle and cut your opponent’s deck.</li>
+<li>Place your deck face-down in the Deck Zone</li>
+<li>Call a coin flip or die roll, the winner decides which player goes first.</li>
+<li>Draw 6 cards, this is your starting hand.</li>
+</ul>
+<p>Then you may proceed with your turn, which is broken down into steps that are played in order:</p>
+<p><strong>Preparation</strong><br>
+This is the first step. Used during game setup and before you draw a card. No game actions can be done at this time.<br>
+<strong>Draw</strong><br>
+The player whose turn it is draws 1 card from the top of their deck. A player with no cards left in their deck and is unable to draw loses the game. After you draw you may activate React Spells.<br>
+<strong>Main</strong><br>
+This is when you play the majority of your cards: You can Summon Monsters, play Masters and Battlefields and activate Spells of any type. You may also change the battle position of a Monster you control once.<br>
+<strong>Attack</strong><br>
+During this Step Monsters can attack other Monsters, Masters and Players. Monsters must attack other Monsters before they can attack Masters and Players. Monsters can only attack once. You may activate React Spells in this step. After all monsters attack move on to the Post-Attack Step.<br>
+<strong>Post-Attack</strong><br>
+This step is used for card effects that apply after you Attack. You may activate React Spells in this step.<br>
+<strong>End</strong><br>
+You end your turn, the opponent now enters their Preparation Step.</p>
+<h3 id="winning-a-game"><strong>Winning a game:</strong></h3>
+<p>Each player starts with 250 Life. You win when your opponent’s life is reduced to 0, or if your opponent is unable to draw a card during their Draw Step.</p>
+<h2 id="breakdown-of-the-attack-step">Breakdown of the Attack Step</h2>
+<p>When you attack an opponent’s Monster, use this chart to figure out the outcome of that Attack.</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Battle-Ready</th>
+<th>Defending</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Win</strong></td>
+<td>When your attacking Monster’s STR is higher then the STR of the opponent’s monster the attacking Monster destroys the opponent’s monster. The amount that your attacking monster’s STR exceeds the STR of your opponent’s monster is subtracted from your opponent’s Life as battle damage.</td>
+<td>When your attacking Monster’s STR is higher then the DEF of the opponent’s monster the attacking Monster destroys the opponent’s monster.</td>
+</tr>
+<tr>
+<td><strong>Tie</strong></td>
+<td>When both Monster’s STR is equal both monsters are destroyed without any damage.</td>
+<td>When your Attacking Monster’s STR is equal to the opponent’s monster no cards are destroyed and no damage occurs.</td>
+</tr>
+<tr>
+<td><strong>Lose</strong></td>
+<td>When your attacking Monsters STR is lower then the STR of the opponent’s monster the attacking monster is destroyed by the opponent’s monster. The amount that the opponent’s monster’s STR exceeds the STR of your attacking monster is subtracted from your Life as battle damage.</td>
+<td>When your attacking Monster’s STR is lower then the DEF of the opponent’s monster The amount that the opponent’s monster’s DEF exceeds the STR of your attacking monster is subtracted from your Life as battle damage.</td>
+</tr>
+</tbody>
+</table><p>When you attack, you may optionally choose to attack your opponent’s active Master. When you attack this way the attacking monster’s STR is dealt as damage to that Master’s HP. You must attack and destroy all defending Monsters before you can attack a Master. Master Cards are destroyed when their HP reaches 0.</p>
+<p>When there are no Monsters to Attack you may instead attack the opponent directly. When you attack this way the attacking monster’s STR is dealt as damage to the Player’s life.</p>
+<h3 id="master-cards">Master Cards</h3>
+<p><strong>How to Play</strong><br>
+To play a Master Card simply put it face-up from your hand into the Master Zone. If you already control a Master you cannot play an additional Master until the current one leaves the field.<br>
+<strong>How to Use</strong><br>
+Master card effects can be used as many times per turn as you wish, or have effects that go on continuously.<br>
+<strong>HP (<em>Health Points</em>)</strong><br>
+In the top right of a Master card is it’s HP. When a Monster battles it may choose to battle a Master, in which case it will lose HP. When a Master’s HP reaches 0 it is destroyed.</p>
+<h3 id="battlefield-cards">Battlefield Cards</h3>
+<p><strong>How to Play</strong><br>
+To play a Battlefield card simply put it face-up from your hand into the Battlezone. To use another Battlefield, send your previous one to the Cemetery. (<em>This does not count as destroying your battlefield</em>)<br>
+<strong>How to Use</strong><br>
+Battlefields have effects that are continuous (<em>ongoing</em>) and affect both players.</p>
+<p><em><strong>Both Master and Battlefield cards effects end the instant they leave the field.</strong></em></p>
+  </div>
+</div>
+<!-- partial -->
+    
+
+    </body>
+</html>
